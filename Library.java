@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Library {
+public class Library implements LibraryOperations{
 
     Book[] books = new Book[4];
     protected static int arrayCounter = 0;
